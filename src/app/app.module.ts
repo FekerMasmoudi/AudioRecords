@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { AudioRecorderPolyfillComponent } from './audio-recorder-polyfill/audio-recorder-polyfill.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AudioRecorderPolyfillComponent
   ],
   imports: [
     BrowserModule,
